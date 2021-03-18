@@ -1,0 +1,142 @@
+.header{
+  width: 100%;
+  margin: 50px auto 0;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  background: #f38181;
+  margin: 0 ;
+}
+
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.header__logo{
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav{
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.nav__link{
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 20px;
+  color: #fff;
+  text-decoration: none;
+
+  transition: color .2s linear;
+}
+
+.nav__link.active{
+  color: #fce38a;
+}
+
+.nav__link.active:after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  margin-top: 10px;
+
+  background: #fce38a;
+}
+
+.nav__link:after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  margin-top: 10px;
+
+  transition: background .2s linear;
+}
+
+.nav__link:hover{
+  color: #fce38a;
+}
+
+.nav__link:hover:after{
+  background: #fce38a;
+}
+
+/* burger */
+
+.burger{
+  display: none;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+  border: 0;
+  background: none;
+  outline: none;
+}
+
+.burger.active .burger__menu::after{
+  top: 0;
+}
+
+.burger.active .burger__menu{
+  transform: rotate(45deg);
+}
+
+.burger.active .burger__menu::before{
+  transform: rotate(90deg);
+  top: 0;
+}
+
+.burger__menu{
+  display: block;
+  width: 30px;
+  height: 2px;
+  background: #fff;
+  font-size: 0;
+  color: transparent;
+
+  transition: transform .2s linear;
+}
+
+.burger__menu::after{
+  content: "";
+  display: block;
+  background: #FFF;
+  width: 30px;
+  height: 2px;
+
+  position: absolute;
+  bottom: 25px;
+  z-index: 10;
+
+  transition: background .2s linear;
+}
+
+.burger__menu::before{
+  content: "";
+  display: block;
+  background: #FFF;
+  width: 30px;
+  height: 2px;
+
+  position: absolute;
+  top: 26px;
+  z-index: 10;
+
+  transition: transform .2s linear;
+}

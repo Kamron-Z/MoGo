@@ -1,0 +1,34 @@
+
+
+.stat{
+  background: #95e1d3;
+}
+
+.stat__inner{
+  display: flex;
+}
+
+.stat__item{
+  padding: 85px 0 ;
+  border-right: 1px solid #b5eae0;
+  width: 25%;
+  text-align: center;
+}
+
+.stat__item:first-child{
+  border-left: 1px solid #b5eae0;
+}
+
+.stat__number{
+  font-weight: 700;
+  font-size: 72px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.stat__title{
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+}

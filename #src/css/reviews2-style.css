@@ -1,0 +1,30 @@
+.reviews-2 {
+  background: #fff;
+}
+
+.reviews__item_img{
+  margin-right: 45px;
+  width: 20%;
+}
+
+.reviews__innner-2 {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  align-items: center;
+  padding: 70px 0;
+}
+
+.reviews2__item{
+  width: 80%;
+}
+
+.reviews__img-2 {
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  width: 100%;
+  max-width: 210px;
+  height: auto;
+}

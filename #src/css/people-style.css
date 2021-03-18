@@ -1,0 +1,61 @@
+.section-people {
+  background: url("../img/people-bg.jpg") center no-repeat;
+  background-size: cover;
+  padding-top: 10px;
+}
+
+.people__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.people__item {
+  display: flex;
+  width: 50%;
+  margin-bottom: 65px;
+}
+
+.people__img {
+  margin-right: 25px;
+}
+
+.people__itemtext {
+  width: 100%;
+  max-width: 390px;
+}
+
+.people__name {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.people__prof {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Rotobo";
+  font-style: italic;
+  color: #333;
+}
+
+.people__prof::after {
+  content: "";
+  display: block;
+
+  width: 60px;
+  height: 3px;
+
+  background: #f38181;
+  margin: 10px 0;
+}
+
+.people__text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #999999;
+  font-style: 300;
+  font-size: 14px;
+}

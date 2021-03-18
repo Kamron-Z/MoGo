@@ -1,0 +1,434 @@
+/* media */
+
+@media (max-width: 1230px) {
+
+  /* header */
+  /* section */
+  .images__item {
+    margin-right: 10px;
+  }
+
+  .images__item:last-child {
+    margin-right: 0;
+  }
+
+  /* reviews-2 */
+
+  .reviews-2 {
+    margin: 0;
+  }
+
+
+
+
+}
+
+/* ipad  */
+@media (max-width: 990px) {
+
+  /* header */
+  .intro__sub {
+    font-size: 52px;
+  }
+
+  .intro__title {
+    font-size: 110px;
+  }
+
+  /* section */
+  .section__inner {
+    margin: 50px 0;
+  }
+
+  /* stat */
+  .stat__inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .stat__item {
+    width: 33.3333%;
+    border-right: 0;
+    padding: 35px 0;
+  }
+
+
+  .stat__item:first-child {
+    border-left: 0;
+  }
+
+  /* servic */
+  .servic__grup {
+    flex-wrap: wrap;
+  }
+
+  .servic__item {
+    width: 50%;
+  }
+
+  .servic__item:nth-child(4) {
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  /* wedo */
+  .wedo__inner {
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+
+  .wedo__item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  /* team */
+  .team {
+    padding-bottom: 70px;
+  }
+
+  /* logos */
+  .logos__inner {
+    padding: 40px 0;
+    flex-wrap: wrap;
+  }
+
+  .logos__img {
+    width: 33.33333%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .logos__img:nth-child(4) {
+    margin-bottom: 0;
+  }
+
+  .logos__img:nth-child(5) {
+    margin-bottom: 0;
+  }
+
+  .logos__img:nth-child(6) {
+    margin-bottom: 0;
+  }
+
+  /* footer */
+  .footer__inner {
+    flex-wrap: wrap;
+  }
+
+  .footer__col_first {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer__col_second {
+    width: 50%;
+  }
+
+  .footer__col_third {
+    width: 30%;
+  }
+
+  .footer__social {
+    justify-content: center;
+  }
+
+  .footer__form {
+    margin: 0 auto 40px;
+  }
+
+  .block__title {
+    margin-bottom: 20px;
+  }
+
+}
+
+/* ipad */
+@media (max-width: 770px) {
+
+  /* header */
+  .intro__sub {
+    font-size: 42px;
+  }
+
+  .burger{
+    display: block;
+  }
+
+  .intro__title {
+    font-size: 90px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .slayer__title {
+    display: none;
+  }
+
+  /* nav */
+  .nav {
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 1;
+    background: #ea8684;
+  }
+
+  .nav.active {
+    display: block;
+  }
+
+  .nav__link{
+    display: block;
+    margin: 0;
+    padding: 10px 20px;
+  }
+
+  /* intro */
+  .intro {
+    min-height: 540px;
+  }
+
+  /* section */
+  .section__inner {
+    margin: 50px auto;
+  }
+
+  .images__inner {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+
+  .images__item {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+
+  /* device */
+  .section--device {
+    display: none;
+  }
+
+  /* reviews */
+  .reviews__inner {
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+
+  .reviews__img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  /* team */
+  .team {
+    padding-bottom: 50px;
+  }
+
+  .team__inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .team__col {
+    width: 100%;
+  }
+
+  .team__item {
+    margin-bottom: 10px;
+  }
+
+  .team_prof {
+    margin-bottom: 15px;
+  }
+
+  /* works */
+
+  .works__inner {
+    flex-wrap: wrap;
+  }
+
+  .woks__col {
+    width: 50%;
+  }
+
+  /* reviews2 */
+  .reviews__innner {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .reviews__item_img {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .reviews2__item {
+    width: 100%;
+  }
+
+  /* people */
+  .people__item {
+    width: 100%;
+  }
+
+  /* blogs */
+  .blogs__inner {
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+  }
+
+  .blogs__item {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .blogs__img {
+    margin: 0 auto;
+  }
+
+  .blogs__icon {
+    justify-content: center;
+  }
+
+  /* map */
+  .map {
+    padding: 35px 0;
+  }
+}
+
+/* iphone */
+@media (max-width: 575px) {
+
+  /* header */
+  .intro__sub {
+    font-size: 22px;
+  }
+
+  .intro__title {
+    font-size: 30px;
+  }
+
+  /* section */
+  .section__inner {
+    margin: 30px auto;
+  }
+
+  .section__title::after {
+    margin: 20px auto;
+  }
+
+  .images__inner {
+    margin-bottom: 40px;
+  }
+
+  /* stat */
+  .stat__item {
+    width: 100%;
+    padding: 25px 0;
+  }
+
+  .stat__number {
+    font-size: 34px;
+  }
+
+  /* servic */
+  .servic__item {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 50px;
+  }
+
+  .servic__icon {
+    left: 1%;
+  }
+
+  .servic__item:nth-child(5) {
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  /* team */
+  .team {
+    padding-bottom: 30px;
+  }
+
+  /* logo */
+
+  .logos__img {
+    width: 50%;
+
+  }
+
+  .logos__img:nth-child(4) {
+    margin-bottom: 15px;
+  }
+
+  .logos__img img {
+    max-width: 70px;
+  }
+
+  /* works */
+
+  .woks__col {
+    width: 100%;
+  }
+
+  /* reviews2 */
+  .reviews__innner-2 {
+    padding: 30px;
+  }
+
+  /* people */
+  .people__item {
+    margin-bottom: 25px;
+  }
+
+  .people__text {
+    font-size: 12px;
+  }
+
+  /* blogs */
+
+  .blogs__inner {
+    padding-bottom: 30px;
+  }
+
+  /* map */
+  .map {
+    padding: 15px 0;
+  }
+
+  /* footer */
+
+  .footer__inner {
+    padding: 40px 0;
+  }
+
+  .footer__col_second {
+    width: 100%;
+  }
+
+  .footer__col_third {
+    width: 80%;
+  }
+
+  .footer__form {
+    max-width: 280px;
+  }
+
+  .footer__btn {
+    padding: 0;
+  }
+
+
+}

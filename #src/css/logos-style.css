@@ -1,0 +1,21 @@
+
+.logos{
+  background: #f8f8f8;
+}
+
+.logos__inner{
+  padding: 75px 0 60px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logos__img {
+    width: 16%;
+}
+
+.logos__img img{
+  width: 100%;
+  max-width: 128px;
+  height: auto;
+}

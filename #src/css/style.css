@@ -1,0 +1,63 @@
+@import "fonts";
+
+@import "header-style";
+
+@import "intro-style";
+
+@import "section-style";
+
+@import "stat-style";
+
+@import "servic-style";
+
+@import "device-style";
+
+@import "wedo-style";
+
+@import "reviews-style";
+
+@import "team-style";
+
+@import "logos-style";
+
+@import "works-style";
+
+@import "reviews2-style";
+
+@import "people-style";
+
+@import "blogs-style";
+
+@import "map-style";
+
+@import "footer-style";
+
+@import "media-style";
+
+body {
+  font-family: "Montserrat" , sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+  
+}
+
+/* null */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* container */
+.container{
+  width: 100%;
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}

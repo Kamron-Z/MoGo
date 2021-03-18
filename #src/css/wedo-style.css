@@ -1,0 +1,106 @@
+
+.wedo__inner {
+  display: flex;
+  margin-bottom: 110px;
+  
+}
+
+.wedo__item {
+  width: 50%;
+  margin-right: 10px;
+}
+
+.wedo__item:last-child{
+  margin-right: 0;
+}
+
+.wedo__img{
+  width: 100%;
+  max-width: 570px;
+}
+
+.accordion {
+  width: 100%;
+  max-width: 570px;
+}
+
+.accordion__inner {
+  border: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+
+.accordion__inner.active
+.accordion__header::after{
+  display: block;
+}
+
+.accordion__inner.active 
+.accardion__text {
+  display: block;
+}
+
+.accordion__inner.noactive.active
+.accordion__header::after{
+  display: block;
+  background: url("../img/wedo-up.png") center no-repeat;
+}
+
+.accordion__inner.noactive
+.accordion__header::after{
+  display: block;
+  background: url("../img/wedo-down.png") center no-repeat;
+}
+
+.accordion__header {
+  padding: 23px 15px 20px 60px;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion__header::after {
+  content: "";
+  display: none;
+
+  width: 24px;
+  height: 24px;
+  background: url("../img/wedo-up.png") center no-repeat;
+
+  position: absolute;
+  top: 50%;
+  right: 15px;
+
+  cursor: pointer;
+
+  transform: translateY(-50%);
+}
+
+.accordion__icon {
+  position: absolute;
+  top: 25%;
+  left: 3%;
+}
+
+.accordion__title {
+  font-size: 14px;
+  color: #333333;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.accordion__main {
+  padding: 20px 15px;
+}
+
+.accardion__text {
+  padding: 20px 40px;
+  display: none;
+
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  color: #999999;
+}
+
+

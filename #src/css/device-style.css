@@ -1,0 +1,19 @@
+.device {}
+
+.device__inner {
+  width: 100%;
+  max-width: 610px;
+  margin: 0 auto;
+
+  position: relative;
+}
+
+.device__ipad {
+  display: block;
+}
+
+.device__iphone {
+  position: absolute;
+  top: 38%;
+  left: 62%;
+}
