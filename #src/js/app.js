@@ -4,7 +4,7 @@ let header = document.querySelector(".header");
 let intro = document.querySelector(".intro").scrollHeight;
 let burger = document.querySelector(".burger")
 let nav = document.querySelector(".nav")
-let wedo = document.querySelector(".accordion__inner");
+let wedo = document.querySelectorAll(".accordion__inner");
 
 window.addEventListener("scroll", function() {
 
@@ -34,8 +34,13 @@ burger.addEventListener("click", function() {
   nav.classList.toggle("active");
 });
 
-  wedo.addEventListener("click", function(){
+for(wedoItem of wedo);
 
-  wedo.classList.toggle("active");
+  wedoItem.addEventListener("click", function(){
 
-});
+    wedoItem.classList.toggle("active");
+  });
+
+
+
+
